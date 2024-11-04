@@ -19,7 +19,6 @@ County_name = data_2022['COUNTYNAME'].tolist()
 State_case = data_2022['ST_CASE'].tolist()
 
 # Prepare the Actor input
-
 run_input = {
     "customMapFunction": "(object) => { return {...object} }",
     "end": End_date,
