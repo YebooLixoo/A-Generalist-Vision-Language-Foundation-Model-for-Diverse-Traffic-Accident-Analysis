@@ -3,8 +3,8 @@ import csv
 import pandas as pd
 from datetime import datetime, timedelta
 
-# Initialize the ApifyClient with API token
-client = ApifyClient("apify_api_MdGvE68vHMl96m49cNohmJbgsgigAe1QkN2h")
+# Initialize the Actor with API token
+client = ApifyClient("API_TOKEN")
 
 # Read the CSV file using pandas
 data_2022 = pd.read_csv("/Users/boyu/Desktop/LLMs for Traffic Accident/Coding/Data Sraping/2022_california.csv")
